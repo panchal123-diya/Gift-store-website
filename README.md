@@ -43,6 +43,5 @@ This is a **frontend-only** project and does not include backend or database fun
 - **JavaScript**
 
 No frameworks or libraries were used — the entire UI is built from scratch for learning and practice purposes.
-
-Author
+## 🙋‍♀️ Author
 Created with ❤️ by Diya Panchal
