@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - GiftAura</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="faq-header">
+        <h1>Privacy Policy</h1>
+        <p>Your privacy is important to us. Learn how we protect your information.</p>
+    </header>
+
+    <div class="faq-container">
+        <div class="faq-item">
+            <div class="faq-question">What information do we collect?</div>
+            <div class="faq-answer">
+                We collect personal information such as your name, email address, phone number, and payment details when you place an order or create an account on GiftAura.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">How do we use your information?</div>
+            <div class="faq-answer">
+                We use your information to process orders, improve our services, communicate with you, and personalize your experience on GiftAura.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Do we share your information with third parties?</div>
+            <div class="faq-answer">
+                We do not sell or share your personal information with third parties except for trusted partners who assist us in operating our website, conducting business, or servicing you, as long as they agree to keep this information confidential.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">How do we protect your information?</div>
+            <div class="faq-answer">
+                We implement a variety of security measures, including encryption and secure servers, to protect your personal information from unauthorized access, alteration, or disclosure.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Do we use cookies?</div>
+            <div class="faq-answer">
+                Yes, we use cookies to enhance your browsing experience, analyze site traffic, and personalize content. You can choose to disable cookies in your browser settings, but this may affect your experience on our website.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">What are your rights regarding your data?</div>
+            <div class="faq-answer">
+                You have the right to access, update, or delete your personal information at any time. You can do this by logging into your account or contacting our support team.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">How can you contact us about privacy concerns?</div>
+            <div class="faq-answer">
+                If you have any questions or concerns about our privacy policy, please contact us at privacy@giftaura.com.
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const faqItems = document.querySelectorAll('.faq-item');
+        faqItems.forEach(item => {
+            item.querySelector('.faq-question').addEventListener('click', () => {
+                item.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>

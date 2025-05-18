@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - GiftAura</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/lo.png"  alt="GiftAura Logo" class="logo-image" >
+                GiftAura
+            </div>
+            
+            <div class="search-bar">
+                <form id="searchForm">
+                    <input type="text" id="searchInput" placeholder="Search...">
+                    <i class="fas fa-search search-icon"></i>
+                </form>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li class="dropdown">
+                    <a href="#">Categories <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="kids.html">Kids</a></li>
+                        <li><a href="phonecase.html">Phone Case</a></li>
+                        <li><a href="home_decor.html">Home Decor</a></li>
+                        <li><a href="watches.html">Watches</a></li>
+                        <li><a href="jewelry.html">Jewellery</a></li>
+                        <li><a href="soft_toys.html">Soft Toys</a></li>
+                        <li><a href="anniversary.html">Anniversary</a></li>
+                        <li><a href="wallet.html">Wallet</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="#" class="cart-icon"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section class="faq-header">
+        <h1>Frequently Asked Questions</h1>
+        <p>Find answers to common questions about GiftAura</p>
+    </section>
+
+    <div class="faq-container">
+        <div class="faq-item">
+            <div class="faq-question">How do I place an order on GiftAura?</div>
+            <div class="faq-answer">
+                To place an order, simply browse our collection, select the product you like, and proceed to checkout. Follow the steps to enter your details and complete the payment.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">What payment methods are accepted?</div>
+            <div class="faq-answer">
+                We accept all major credit/debit cards, UPI, net banking, and popular wallets like Paytm and PhonePe.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Can I customize gifts on GiftAura?</div>
+            <div class="faq-answer">
+                Yes, we offer customization options for many of our products. You can add personal messages, photos, or choose specific designs during the ordering process.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">How long does delivery take?</div>
+            <div class="faq-answer">
+                Delivery times vary depending on your location. Typically, orders are delivered within 3-7 business days. You can check the estimated delivery time during checkout.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">What is your return policy?</div>
+            <div class="faq-answer">
+                We offer a 7-day return policy for most products. If you’re not satisfied with your purchase, you can return it in its original condition for a refund or exchange.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Do you offer international shipping?</div>
+            <div class="faq-answer">
+                Currently, we only ship within India. However, we are working on expanding our services to international locations soon.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">How can I track my order?</div>
+            <div class="faq-answer">
+                Once your order is shipped, you will receive a tracking number via email or SMS. You can use this number to track your order on our website or the courier’s platform.
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const faqItems = document.querySelectorAll('.faq-item');
+        faqItems.forEach(item => {
+            item.querySelector('.faq-question').addEventListener('click', () => {
+                item.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>

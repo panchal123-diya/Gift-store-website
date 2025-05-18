@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms & Conditions - GiftAura</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="faq-header">
+        <h1>Terms & Conditions</h1>
+        <p>Please read our terms and conditions carefully before using our services.</p>
+    </header>
+
+    <div class="faq-container">
+        <div class="faq-item">
+            <div class="faq-question">Acceptance of Terms</div>
+            <div class="faq-answer">
+                By accessing or using GiftAura, you agree to be bound by these Terms & Conditions. If you do not agree, please do not use our services.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Eligibility</div>
+            <div class="faq-answer">
+                You must be at least 18 years old or have the consent of a legal guardian to use GiftAura. By using our services, you confirm that you meet these requirements.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Ordering and Payment</div>
+            <div class="faq-answer">
+                All orders are subject to product availability and acceptance. We reserve the right to refuse or cancel any order. Payment must be made in full at the time of purchase.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Shipping and Delivery</div>
+            <div class="faq-answer">
+                We aim to deliver all orders within the estimated time frame. However, delays may occur due to unforeseen circumstances. We are not responsible for delays beyond our control.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Returns and Refunds</div>
+            <div class="faq-answer">
+                Our return policy allows you to return products within 7 days of delivery, provided they are in their original condition. Refunds will be processed within 3-5 business days.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Intellectual Property</div>
+            <div class="faq-answer">
+                All content on GiftAura, including text, images, and logos, is the property of GiftAura and is protected by intellectual property laws. Unauthorized use is strictly prohibited.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Limitation of Liability</div>
+            <div class="faq-answer">
+                GiftAura is not liable for any indirect, incidental, or consequential damages arising from the use of our services. Our liability is limited to the maximum extent permitted by law.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Changes to Terms</div>
+            <div class="faq-answer">
+                We reserve the right to update or modify these Terms & Conditions at any time. Continued use of our services after changes constitutes acceptance of the new terms.
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const faqItems = document.querySelectorAll('.faq-item');
+        faqItems.forEach(item => {
+            item.querySelector('.faq-question').addEventListener('click', () => {
+                item.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>

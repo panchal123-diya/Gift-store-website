@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - GiftAura</title>
+    <link rel="icon" href="images/favc.jpg">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/lo.png"  alt="GiftAura Logo" class="logo-image" >
+                GiftAura
+            </div>
+            <div class="search-bar">
+                <form id="searchForm">
+                    <input type="text" id="searchInput" placeholder="Search...">
+                    <i class="fas fa-search search-icon"></i>
+                </form>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li class="dropdown">
+                    <a href="#">Categories <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="kids.html">Kids</a></li>
+                        <li><a href="phonecase.html">Phone Case</a></li>
+                        <li><a href="home_decor.html">Home Decor</a></li>
+                        <li><a href="watches.html">Watches</a></li>
+                        <li><a href="jewelry.html">Jewellery</a></li>
+                        <li><a href="soft_toys.html">Soft Toys</a></li>
+                        <li><a href="anniversary.html">Anniversary</a></li>
+                        <li><a href="wallet.html">Wallet</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="" class="cart-icon"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+
+
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="contact-hero">
+            <div class="contact-hero-content">
+                <h1>Contact Us</h1>
+                <p>We'd love to hear from you! Reach out to us for any questions or feedback.</p>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="contact-form">
+            <div class="container">
+                <h2>Send Us a Message</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <div class="input-icon">
+                            <i class="fas fa-user"></i>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-icon">
+                            <i class="fas fa-envelope"></i>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-icon">
+                            <i class="fas fa-comment"></i>
+                            <textarea id="message" name="message" placeholder="Enter your message" rows="5" required></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Contact Info Section -->
+        <section class="contact-info">
+            <div class="container">
+                <h2>Our Contact Information</h2>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Address</h3>
+                        <p>123 Gift Street, Giftsville, USA</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p>+1 (123) 456-7890</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>support@giftaura.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="map">
+            <div class="container">
+                <h2>Find Us on the Map</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345093747!2d144.9537353153166!3d-37.81627974202105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d6d1d5a0b3b2!2s123%20Gift%20Street%2C%20Giftsville%2C%20USA!5e0!3m2!1sen!2sus!4v1633023226784!5m2!1sen!2sus" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <!-- Social Media Section -->
+        <section class="social-media">
+            <div class="container">
+                <h2>Follow Us on Social Media</h2>
+                <div class="social-links">
+                    <a href="https://facebook.com/giftaura"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/giftaura"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com/giftaura"><i class="fab fa-instagram"></i></a>
+                    <a href="https://pinterest.com/giftaura"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>GiftAura is your one-stop shop for personalized gifts. We create unique, custom-made gifts for every occasion.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Customer Service</h3>
+                <ul>
+                    <li><a href="path/to/faq.html">FAQ</a></li>
+                    <li><a href="path/to/shipping-returns.html">Shipping & Returns</a></li>
+                    <li><a href="path/to/privacy.html">Privacy Policy</a></li>
+                    <li><a href="path/to/terms.html">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: support@giftaura.com</p>
+                <p>Phone: +1 (123) 456-7890</p>
+                <p>Address: 123 Gift Street, Giftsville, USA</p>
+            </div>
+        
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="https://facebook.com/giftaura"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/giftaura"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com/giftaura"><i class="fab fa-instagram"></i></a>
+                    <a href="https://pinterest.com/giftaura"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Subscribe to our newsletter for the latest updates and offers.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit"><i class="fas fa-envelope"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; 2025 GiftAura. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html> 
